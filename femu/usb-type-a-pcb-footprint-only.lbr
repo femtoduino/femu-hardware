@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="USB-A-MALE">
+<smd name="1/GND" x="0" y="3.25" dx="7.5" dy="2.25" layer="1" stop="no" cream="no"/>
+<smd name="2/DP" x="0" y="1" dx="7.5" dy="1.75" layer="1" cream="no"/>
+<smd name="3/DM" x="0" y="-1" dx="7.5" dy="1.75" layer="1" cream="no"/>
+<smd name="4/VUSB" x="0" y="-3.25" dx="7.5" dy="2.25" layer="1" stop="no" cream="no"/>
+<rectangle x1="-4.75" y1="2.125" x2="-3.75" y2="3.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="-3.75" y="3.125"/>
+<vertex x="-4.7" y="3.125"/>
+<vertex x="-4.7" y="3.35"/>
+<vertex x="-3.725" y="4.325"/>
+<vertex x="-3.725" y="3.15"/>
+</polygon>
+<rectangle x1="-4.75" y1="-3.125" x2="-3.75" y2="-2.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="-3.75" y="-3.125"/>
+<vertex x="-4.7" y="-3.125"/>
+<vertex x="-4.7" y="-3.375"/>
+<vertex x="-3.75" y="-4.325"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="3.8" y="-2.075"/>
+<vertex x="-4.8" y="-2.075"/>
+<vertex x="-4.8" y="-3.4"/>
+<vertex x="-3.775" y="-4.425"/>
+<vertex x="3.775" y="-4.425"/>
+<vertex x="3.8" y="-4.4"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="3.8" y="2.075"/>
+<vertex x="3.8" y="4.425"/>
+<vertex x="-3.75" y="4.425"/>
+<vertex x="-4.8" y="3.375"/>
+<vertex x="-4.8" y="2.1"/>
+<vertex x="-4.8" y="2.075"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="USB-A">
+<pin name="GND" x="-7.62" y="5.08" length="middle"/>
+<pin name="DP" x="-7.62" y="2.54" length="middle"/>
+<pin name="DM" x="-7.62" y="0" length="middle"/>
+<pin name="VBUS" x="-7.62" y="-5.08" length="middle"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="10.16" y="-2.54" size="1.778" layer="94" rot="R90">USB</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB-A-PCB">
+<gates>
+<gate name="A" symbol="USB-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-A-MALE">
+<connects>
+<connect gate="A" pin="DM" pad="3/DM"/>
+<connect gate="A" pin="DP" pad="2/DP"/>
+<connect gate="A" pin="GND" pad="1/GND"/>
+<connect gate="A" pin="VBUS" pad="4/VUSB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
