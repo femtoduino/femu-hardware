@@ -1819,6 +1819,46 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-1.5" y="0" curve="90"/>
+<vertex x="0" y="-1.5" curve="90"/>
+<vertex x="1.5" y="0" curve="90"/>
+<vertex x="0" y="1.5" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1.5" y="0" curve="90"/>
+<vertex x="0" y="-1.5" curve="90"/>
+<vertex x="1.5" y="0" curve="90"/>
+<vertex x="0" y="1.5" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1991,6 +2031,12 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <attribute name="MPN" value="GRM033R71A103KA01D"/>
 </part>
 <part name="U$20" library="microbuilder" deviceset="VIN" device=""/>
+<part name="FID1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID3" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID4" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID5" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2214,6 +2260,12 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="U$24" gate="G$1" x="50.8" y="134.62" smashed="yes" rot="R90">
 <attribute name="VALUE" x="53.34" y="133.096" size="1.27" layer="96" rot="R90"/>
 </instance>
+<instance part="FID1" gate="G$1" x="93.98" y="25.4" smashed="yes"/>
+<instance part="FID2" gate="G$1" x="101.6" y="25.4" smashed="yes"/>
+<instance part="FID3" gate="G$1" x="101.6" y="17.78" smashed="yes"/>
+<instance part="FID4" gate="G$1" x="93.98" y="12.7" smashed="yes"/>
+<instance part="FID5" gate="G$1" x="101.6" y="10.16" smashed="yes"/>
+<instance part="FID6" gate="G$1" x="93.98" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
