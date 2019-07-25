@@ -79,6 +79,18 @@
 <wire x1="1.1" y1="-1.1" x2="1.1" y2="1.1" width="0.2" layer="21"/>
 <wire x1="1.1" y1="1.1" x2="1" y2="1.1" width="0.2" layer="21"/>
 </package>
+<package name="WLCSP4">
+<smd name="A1" x="-0.175" y="0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="A2" x="0.175" y="0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="B1" x="-0.175" y="-0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="B2" x="0.175" y="-0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<wire x1="-0.32" y1="0.32" x2="0.32" y2="0.32" width="0.1" layer="21"/>
+<wire x1="0.32" y1="0.32" x2="0.32" y2="-0.32" width="0.1" layer="21"/>
+<wire x1="0.32" y1="-0.32" x2="-0.32" y2="-0.32" width="0.1" layer="21"/>
+<wire x1="-0.32" y1="-0.32" x2="-0.32" y2="0.32" width="0.1" layer="21"/>
+<wire x1="-0.45" y1="0.45" x2="-0.2" y2="0.45" width="0.1" layer="25"/>
+<wire x1="-0.45" y1="0.45" x2="-0.45" y2="0.2" width="0.1" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NCP705_WDFN6">
@@ -104,6 +116,16 @@
 <wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="NCP167">
+<pin name="A1/IN" x="-5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="A2/OUT" x="5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="B1/EN" x="-5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="B2/GND" x="5.08" y="-17.78" length="middle" rot="R90"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -149,6 +171,24 @@
 <technology name="">
 <attribute name="MPN" value="NCP705MTADJTCG" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP167AFCT330T2G">
+<gates>
+<gate name="G$1" symbol="NCP167" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WLCSP4">
+<connects>
+<connect gate="G$1" pin="A1/IN" pad="A1"/>
+<connect gate="G$1" pin="A2/OUT" pad="A2"/>
+<connect gate="G$1" pin="B1/EN" pad="B1"/>
+<connect gate="G$1" pin="B2/GND" pad="B2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
