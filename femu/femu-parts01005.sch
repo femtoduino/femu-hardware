@@ -2227,10 +2227,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="U$15" gate="G$1" x="68.58" y="134.62" smashed="yes">
 <attribute name="VALUE" x="67.056" y="132.08" size="1.27" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="99.06" y="157.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="96.52" y="154.94" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.52" y="157.48" size="1.27" layer="96" font="vector" rot="R180"/>
-<attribute name="MPN" x="99.06" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="C13" gate="G$1" x="99.06" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.52" y="152.4" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="96.52" y="154.94" size="1.27" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="99.06" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="99.06" y="149.86" smashed="yes">
 <attribute name="VALUE" x="97.536" y="147.32" size="1.27" layer="96"/>
@@ -2248,10 +2248,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="U$22" gate="G$1" x="71.12" y="165.1" smashed="yes">
 <attribute name="VALUE" x="69.596" y="162.56" size="1.27" layer="96"/>
 </instance>
-<instance part="C17" gate="G$1" x="190.5" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="187.96" y="124.46" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="187.96" y="127" size="1.27" layer="96" font="vector" rot="R180"/>
-<attribute name="MPN" x="190.5" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="C17" gate="G$1" x="190.5" y="124.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="187.96" y="121.92" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="187.96" y="124.46" size="1.27" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="190.5" y="124.46" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$21" gate="G$1" x="190.5" y="119.38" smashed="yes">
 <attribute name="VALUE" x="188.976" y="116.84" size="1.27" layer="96"/>
@@ -2275,10 +2275,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="U$28" gate="G$1" x="149.86" y="40.64" smashed="yes" rot="R90">
 <attribute name="VALUE" x="152.4" y="39.116" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C20" gate="G$1" x="109.22" y="160.02" smashed="yes">
-<attribute name="NAME" x="106.68" y="165.1" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="106.68" y="162.56" size="1.27" layer="96" font="vector" rot="R180"/>
-<attribute name="MPN" x="109.22" y="160.02" size="1.778" layer="96" display="off"/>
+<instance part="C20" gate="G$1" x="109.22" y="162.56" smashed="yes">
+<attribute name="NAME" x="106.68" y="167.64" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="106.68" y="165.1" size="1.27" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="109.22" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$29" gate="G$1" x="109.22" y="172.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="110.744" y="175.26" size="1.27" layer="96" rot="R180"/>
@@ -2439,7 +2439,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <segment>
 <pinref part="C13" gate="G$1" pin="P$1"/>
 <pinref part="U$16" gate="G$1" pin="GND"/>
-<wire x1="99.06" y1="152.4" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="P$1"/>
@@ -2452,7 +2451,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <segment>
 <pinref part="C17" gate="G$1" pin="P$1"/>
 <pinref part="U$21" gate="G$1" pin="GND"/>
-<wire x1="190.5" y1="121.92" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="P$1"/>
@@ -2465,7 +2463,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <segment>
 <pinref part="C20" gate="G$1" pin="P$1"/>
 <pinref part="U$29" gate="G$1" pin="GND"/>
-<wire x1="109.22" y1="170.18" x2="109.22" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="170.18" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="P$1"/>
@@ -2578,10 +2576,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <wire x1="114.3" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="132.08" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="3.3V"/>
-<wire x1="104.14" y1="160.02" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="P$2"/>
-<wire x1="99.06" y1="162.56" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
-<junction x="99.06" y="162.56"/>
+<wire x1="99.06" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<junction x="99.06" y="160.02"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="3.3V"/>
@@ -2601,11 +2599,11 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="P$2"/>
-<wire x1="190.5" y1="132.08" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <pinref part="IC1" gate="G$1" pin="VDD3P3_CPU"/>
-<wire x1="167.64" y1="129.54" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
-<junction x="190.5" y="132.08"/>
+<wire x1="167.64" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<junction x="190.5" y="129.54"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDD3P3_RTC"/>
@@ -2653,12 +2651,13 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="C21" gate="G$1" pin="P$1"/>
-<wire x1="121.92" y1="170.18" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="170.18" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="CAP1"/>
 <wire x1="129.54" y1="147.32" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="P$2"/>
 <wire x1="129.54" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="157.48" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="165.1" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <junction x="119.38" y="165.1"/>
 <junction x="119.38" y="157.48"/>
