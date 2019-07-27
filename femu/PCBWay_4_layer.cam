@@ -177,8 +177,7 @@
                     },
                     "filename_format": "PCBWAY/%PREFIX/profile.gbr",
                     "layers": [
-                        20,
-                        46
+                        20
                     ],
                     "milling": true,
                     "polarity": "positive",
@@ -279,17 +278,23 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
-                        "file_function": "Profile",
-                        "plating": "non-plated"
+                        "file_function": "DrillMap"
                     },
-                    "filename_format": "PCBWAY/%PREFIX/edge_cut_outline.gko",
+                    "filename_format": "PCBWAY/%PREFIX/cutouts.xln",
                     "layers": [
                         46
                     ],
                     "milling": false,
-                    "name": "Edge cut outline",
+                    "name": "Cutouts",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }
@@ -303,7 +308,7 @@
             ]
         }
     ],
-    "timestamp": "2019-07-25T18:32:57",
+    "timestamp": "2019-07-26T20:44:55",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
