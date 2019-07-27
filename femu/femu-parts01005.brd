@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="13" fill="1" visible="yes" active="yes"/>
@@ -228,8 +228,9 @@
 <vertex x="2.921" y="5.08" curve="-90"/>
 <vertex x="1.778" y="3.937" curve="-90"/>
 </polygon>
-<text x="23.114" y="2.794" size="0.6604" layer="25" font="vector" ratio="20" rot="R90" align="center">FEMTO.IO</text>
+<text x="23.114" y="4.318" size="0.6604" layer="25" font="vector" ratio="20" rot="R90" align="center">FEMTO.IO</text>
 <text x="21.971" y="2.794" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center">FEMU</text>
+<text x="21.971" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center">1.0.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -937,8 +938,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C19" library="parts_0201" package="PART" value="0.1uF" x="10.2124" y="6.1956" smashed="yes" rot="MR0">
 <attribute name="MPN" value="GRM033C80J104KE84D" x="22.9124" y="-29.3544" size="0.5" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C20" library="parts_01005" package="01005" value="10nF/6.3V(10%)" x="10.68738125" y="12.12341875" smashed="yes" rot="MR0">
-<attribute name="MPN" value="GRM022R60J103KE19L" x="29.93738125" y="-36.72658125" size="0.5" layer="28" rot="MR0" display="off"/>
+<element name="C20" library="parts_01005" package="01005" value="10nF/6.3V(10%)" x="10.81438125" y="12.27581875" smashed="yes" rot="MR0">
+<attribute name="MPN" value="GRM022R60J103KE19L" x="30.06438125" y="-36.57418125" size="0.5" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C21" library="parts_0201" package="PART" value="3.3nF/6.3V(10%)" x="12.8208" y="8.1788" smashed="yes" rot="MR270">
 <attribute name="MPN" value="GRM033R70J332KA01D" x="64.4708" y="20.8788" size="0.5" layer="28" rot="MR270" display="off"/>
@@ -1268,8 +1269,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$6" pad="1"/>
 <wire x1="18.1864" y1="8.382" x2="18.1864" y2="10.0092" width="0.254" layer="1"/>
 <wire x1="18.1864" y1="10.0092" x2="17.934" y2="10.2616" width="0.254" layer="1"/>
-<wire x1="10.84738125" y1="12.12341875" x2="11.05058125" y2="12.12341875" width="0.1524" layer="16"/>
-<wire x1="11.05058125" y1="12.12341875" x2="11.27918125" y2="12.35201875" width="0.1524" layer="16"/>
+<wire x1="10.97438125" y1="12.27581875" x2="11.20298125" y2="12.27581875" width="0.1524" layer="16"/>
+<wire x1="11.20298125" y1="12.27581875" x2="11.27918125" y2="12.35201875" width="0.1524" layer="16"/>
 <wire x1="10.511" y1="11.204" x2="11.27918125" y2="11.97218125" width="0.254" layer="1"/>
 <wire x1="11.27918125" y1="11.97218125" x2="11.27918125" y2="12.35201875" width="0.254" layer="1"/>
 <wire x1="12.3516" y1="12.3372" x2="12.3566" y2="12.3422" width="0.1524" layer="16"/>
@@ -1600,13 +1601,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C21" pad="1"/>
 <contactref element="IC1" pad="48"/>
 <contactref element="C20" pad="2"/>
-<wire x1="10.4526" y1="11.6778" x2="10.4526" y2="12.005975" width="0.1524" layer="16"/>
-<wire x1="10.4526" y1="12.005975" x2="10.52738125" y2="12.12341875" width="0.1524" layer="16"/>
+<wire x1="10.4526" y1="11.6778" x2="10.4526" y2="12.0740375" width="0.1524" layer="16"/>
+<wire x1="10.65438125" y1="12.27581875" x2="10.4526" y2="12.0740375" width="0.1524" layer="16"/>
 <wire x1="12.8208" y1="8.5288" x2="12.8208" y2="8.5774" width="0.1524" layer="16"/>
 <wire x1="12.8208" y1="8.5774" x2="12.9302" y2="8.6868" width="0.1524" layer="16"/>
 <via x="12.9302" y="8.6868" extent="15-16" drill="0.1016" diameter="0.3048"/>
-<wire x1="10.54515" y1="12.4206" x2="10.52738125" y2="12.40283125" width="0.1524" layer="16"/>
-<wire x1="10.52738125" y1="12.40283125" x2="10.52738125" y2="12.12341875" width="0.1524" layer="16"/>
+<wire x1="10.54515" y1="12.4206" x2="10.65438125" y2="12.31136875" width="0.1524" layer="16"/>
+<wire x1="10.65438125" y1="12.31136875" x2="10.65438125" y2="12.27581875" width="0.1524" layer="16"/>
 <via x="10.54515" y="12.4206" extent="15-16" drill="0.1016" diameter="0.3048"/>
 <wire x1="10.54515" y1="12.4206" x2="10.54515" y2="11.07185" width="0.254" layer="15"/>
 <wire x1="10.54515" y1="11.07185" x2="11.53575" y2="10.08125" width="0.254" layer="15"/>
@@ -2001,6 +2002,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,16,6b299ad5fa13faaf"/>
 <approved hash="19,1,10124132543d7470"/>
 <approved hash="19,16,3db9c74f9ea06acb"/>
+<approved hash="19,16,af13a3a2d46ff00c"/>
 </errors>
 </board>
 </drawing>
