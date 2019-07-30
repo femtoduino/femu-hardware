@@ -893,11 +893,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="XTAL1" library="crystals" package="ABM12" value="40MHz" x="8.4584" y="4.9392" smashed="yes" rot="MR180">
 <attribute name="MPN" value="FA-128 40.0000MF10Z-K3" x="-0.0916" y="-13.1108" size="0.5" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C4" library="parts_0201" package="PART" value="8pF" x="10.2124" y="5.334" smashed="yes" rot="MR0">
-<attribute name="MPN" value="GRM0335C1H8R0DA01D" x="15.9124" y="7.684" size="0.5" layer="28" rot="MR0" display="off"/>
+<element name="C4" library="parts_0201" package="PART" value="10pF" x="10.2124" y="5.334" smashed="yes" rot="MR0">
+<attribute name="MPN" value="CC0201JRNPO9BN100" x="15.9124" y="7.684" size="0.5" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C5" library="parts_0201" package="PART" value="8pF" x="10.2124" y="4.572" smashed="yes" rot="MR0">
-<attribute name="MPN" value="GRM0335C1H8R0DA01D" x="19.2124" y="4.122" size="0.5" layer="28" rot="MR0" display="off"/>
+<element name="C5" library="parts_0201" package="PART" value="10pF" x="10.2124" y="4.572" smashed="yes" rot="MR0">
+<attribute name="MPN" value="CC0201JRNPO9BN100" x="19.2124" y="4.122" size="0.5" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C7" library="parts_0201" package="PART" value="270pF" x="12.4222" y="9.398" smashed="yes" rot="MR180">
 <attribute name="MPN" value="GRM033R71C271KA01D" x="-3.1778" y="12.648" size="0.5" layer="28" rot="MR180" display="off"/>

@@ -1965,11 +1965,11 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="XTAL1" library="crystals" deviceset="ABM12" device="" value="40MHz">
 <attribute name="MPN" value="FA-128 40.0000MF10Z-K3"/>
 </part>
-<part name="C4" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="8pF">
-<attribute name="MPN" value="GRM0335C1H8R0DA01D"/>
+<part name="C4" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10pF">
+<attribute name="MPN" value="CC0201JRNPO9BN100"/>
 </part>
-<part name="C5" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="8pF">
-<attribute name="MPN" value="GRM0335C1H8R0DA01D"/>
+<part name="C5" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10pF">
+<attribute name="MPN" value="CC0201JRNPO9BN100"/>
 </part>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
