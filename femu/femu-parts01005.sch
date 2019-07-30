@@ -2011,7 +2011,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </part>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
 <part name="C17" library="parts_01005" deviceset="CAPACITOR" device="" value="0.1uF">
-<attribute name="MPN" value=" GRM022R60G104ME15L "/>
+<attribute name="MPN" value="GRM022R60G104ME15L"/>
 </part>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="C18" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
@@ -2055,7 +2055,9 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="R6" library="parts_0201" deviceset="RESISTOR_0201" device="" value="DNP"/>
 <part name="U$9" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
-<part name="U$11" library="bar_antenna" deviceset="PULSE_ANT_2.4GHZ" device=""/>
+<part name="ANT1" library="bar_antenna" deviceset="PULSE_ANT_2.4GHZ" device="">
+<attribute name="MPN" value="W3008"/>
+</part>
 <part name="U$23" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$24" library="microbuilder" deviceset="GND" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
@@ -2072,7 +2074,9 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="U$37" library="usb-type-a-pcb-footprint-only" deviceset="USB-A-PCB" device=""/>
 <part name="U$44" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="VIN" device=""/>
-<part name="IC3" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT230X" device="Q" package3d_urn="urn:adsk.eagle:package:14017/1"/>
+<part name="IC3" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT230X" device="Q" package3d_urn="urn:adsk.eagle:package:14017/1">
+<attribute name="MPN" value="FT230XQ-R"/>
+</part>
 <part name="R8" library="parts_0201" deviceset="RESISTOR_0201" device="" value="27">
 <attribute name="MPN" value="ERJ-1GNF27R0C"/>
 </part>
@@ -2105,7 +2109,9 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="FID4" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="FID5" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="FID6" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$33" library="onsemi" deviceset="NCP167AFCT330T2G" device=""/>
+<part name="LDO1" library="onsemi" deviceset="NCP167AFCT330T2G" device="">
+<attribute name="MPN" value="NCP167AFCT330T2G"/>
+</part>
 <part name="C2" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
 <attribute name="MPN" value="CL03A105KQ3CSNH"/>
 </part>
@@ -2335,7 +2341,9 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="U$9" gate="G$1" x="226.06" y="149.86" smashed="yes">
 <attribute name="VALUE" x="224.536" y="150.876" size="1.27" layer="96"/>
 </instance>
-<instance part="U$11" gate="G$1" x="38.1" y="132.08" smashed="yes" rot="R180"/>
+<instance part="ANT1" gate="G$1" x="38.1" y="132.08" smashed="yes" rot="R180">
+<attribute name="MPN" x="38.1" y="132.08" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="U$23" gate="G$1" x="10.16" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="7.62" y="136.144" size="1.27" layer="96" rot="R270"/>
 </instance>
@@ -2475,12 +2483,12 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <wire x1="58.42" y1="116.84" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="3"/>
+<pinref part="ANT1" gate="G$1" pin="3"/>
 <pinref part="U$23" gate="G$1" pin="GND"/>
 <wire x1="12.7" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="2"/>
+<pinref part="ANT1" gate="G$1" pin="2"/>
 <pinref part="U$24" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -2533,7 +2541,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <junction x="73.66" y="129.54"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="U$11" gate="G$1" pin="1"/>
+<pinref part="ANT1" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="129.54" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <junction x="58.42" y="129.54"/>
@@ -2863,7 +2871,9 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="U$33" gate="G$1" x="124.46" y="111.76" smashed="yes"/>
+<instance part="LDO1" gate="G$1" x="124.46" y="111.76" smashed="yes">
+<attribute name="MPN" x="124.46" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C2" gate="G$1" x="104.14" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="109.22" size="1.27" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="101.6" y="111.76" size="1.27" layer="96" font="vector" rot="R180"/>
@@ -2893,7 +2903,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <net name="GND" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="P$1"/>
-<pinref part="U$33" gate="G$1" pin="B2/GND"/>
+<pinref part="LDO1" gate="G$1" pin="B2/GND"/>
 <wire x1="144.78" y1="106.68" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$35" gate="G$1" pin="GND"/>
@@ -2907,7 +2917,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$33" gate="G$1" pin="A2/OUT"/>
+<pinref part="LDO1" gate="G$1" pin="A2/OUT"/>
 <pinref part="U$34" gate="G$1" pin="3.3V"/>
 <wire x1="129.54" y1="129.54" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
@@ -2919,7 +2929,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="U$33" gate="G$1" pin="A1/IN"/>
+<pinref part="LDO1" gate="G$1" pin="A1/IN"/>
 <pinref part="U$36" gate="G$1" pin="VIN"/>
 <wire x1="119.38" y1="129.54" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
@@ -2928,7 +2938,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <wire x1="104.14" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="114.3" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <junction x="104.14" y="132.08"/>
-<pinref part="U$33" gate="G$1" pin="B1/EN"/>
+<pinref part="LDO1" gate="G$1" pin="B1/EN"/>
 <wire x1="119.38" y1="93.98" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="93.98" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
 <junction x="109.22" y="132.08"/>
@@ -2980,6 +2990,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="IC3" gate="G$1" x="68.58" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28" y="135.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="81.28" y="162.56" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="68.58" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="68.58" y="63.5" smashed="yes">
 <attribute name="NAME" x="68.58" y="65.405" size="1.016" layer="95" font="vector"/>

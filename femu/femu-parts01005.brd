@@ -930,7 +930,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="0201YC101KAT2A" x="29.5843" y="-22.8014" size="0.5" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C17" library="parts_01005" package="01005" value="0.1uF" x="5.9888" y="11.057" smashed="yes" rot="MR90">
-<attribute name="MPN" value=" GRM022R60G104ME15L " x="-27.4612" y="-7.843" size="0.5" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GRM022R60G104ME15L" x="-27.4612" y="-7.843" size="0.5" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C18" library="parts_0201" package="PART" value="1uF" x="6.631" y="6.35" smashed="yes" rot="MR180">
 <attribute name="MPN" value="CL03A105KQ3CSNH" x="-22.569" y="42.6" size="0.5" layer="28" rot="MR180" display="off"/>
@@ -970,7 +970,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESIGNER" value="Nobody" x="-1.2526" y="2.9262" size="0.5" layer="27" display="off"/>
 <attribute name="VERSION" value="v01" x="-1.2526" y="2.9262" size="0.5" layer="27" display="off"/>
 </element>
-<element name="U$11" library="bar_antenna" package="ANT_BAR" value="PULSE_ANT_2.4GHZ" x="16.3594" y="11.724" smashed="yes" rot="MR180"/>
+<element name="ANT1" library="bar_antenna" package="ANT_BAR" value="PULSE_ANT_2.4GHZ" x="16.3594" y="11.724" smashed="yes" rot="MR180">
+<attribute name="MPN" value="W3008" x="16.3594" y="11.724" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="FRAME3" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-1.2886" y="1.6604" smashed="yes">
 <attribute name="DESIGNER" value="Nobody" x="-1.2886" y="1.6604" size="0.5" layer="27" display="off"/>
 <attribute name="VERSION" value="v01" x="-1.2886" y="1.6604" size="0.5" layer="27" display="off"/>
@@ -982,7 +984,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="GRM033C80J104KE84D" x="10.9998" y="2.921" size="0.5" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$37" library="usb-type-a-pcb-footprint-only" package="USB-A-MALE" value="USB-A-PCB" x="10.511" y="7.954" smashed="yes"/>
-<element name="IC3" library="ftdichip" library_urn="urn:adsk.eagle:library:231" package="QFN16" package3d_urn="urn:adsk.eagle:package:14017/1" value="FT230XQ" x="13.613" y="5.327" smashed="yes" rot="MR180"/>
+<element name="IC3" library="ftdichip" library_urn="urn:adsk.eagle:library:231" package="QFN16" package3d_urn="urn:adsk.eagle:package:14017/1" value="FT230XQ" x="13.613" y="5.327" smashed="yes" rot="MR180">
+<attribute name="MPN" value="FT230XQ-R" x="13.613" y="5.327" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R8" library="parts_0201" package="PART" value="27" x="14.6574" y="6.731" smashed="yes" rot="R270">
 <attribute name="MPN" value="ERJ-1GNF27R0C" x="14.6574" y="6.731" size="0.5" layer="27" rot="R270" display="off"/>
 </element>
@@ -1011,7 +1015,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="FID4" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.778" y="1.778" smashed="yes" rot="MR0"/>
 <element name="FID5" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.778" y="13.97" smashed="yes" rot="MR0"/>
 <element name="FID6" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="22.352" y="13.97" smashed="yes" rot="MR0"/>
-<element name="U$33" library="onsemi" package="WLCSP4" value="NCP167AFCT330T2G" x="6.9088" y="4.4704" smashed="yes" rot="MR0"/>
+<element name="LDO1" library="onsemi" package="WLCSP4" value="NCP167AFCT330T2G" x="6.9088" y="4.4704" smashed="yes" rot="MR0">
+<attribute name="MPN" value="NCP167AFCT330T2G" x="6.9088" y="4.4704" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="C2" library="parts_0201" package="PART" value="1uF" x="6.6548" y="3.7084" smashed="yes" rot="MR180">
 <attribute name="MPN" value="CL03A105KQ3CSNH" x="6.6548" y="3.048" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -1053,8 +1059,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C20" pad="1"/>
 <contactref element="C22" pad="1"/>
 <contactref element="R6" pad="1"/>
-<contactref element="U$11" pad="3"/>
-<contactref element="U$11" pad="2"/>
+<contactref element="ANT1" pad="3"/>
+<contactref element="ANT1" pad="2"/>
 <contactref element="C25" pad="1"/>
 <contactref element="C27" pad="1"/>
 <contactref element="U$37" pad="1/GND"/>
@@ -1256,7 +1262,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12.8812" y1="11.635" x2="12.6622" y2="11.854" width="0.254" layer="15"/>
 <wire x1="12.6622" y1="11.854" x2="12.6622" y2="12.3422" width="0.254" layer="15"/>
 <contactref element="C3" pad="1"/>
-<contactref element="U$33" pad="B2"/>
+<contactref element="LDO1" pad="B2"/>
 <contactref element="C2" pad="1"/>
 <wire x1="6.1976" y1="4.3236" x2="6.1976" y2="3.8156" width="0.254" layer="16"/>
 <wire x1="6.1976" y1="3.8156" x2="6.3048" y2="3.7084" width="0.254" layer="16"/>
@@ -1372,7 +1378,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="U$11" pad="1"/>
+<contactref element="ANT1" pad="1"/>
 <wire x1="15.0364" y1="11.331" x2="14.3406" y2="11.331" width="0.254" layer="16"/>
 <wire x1="14.1882" y1="11.1786" x2="14.3406" y2="11.331" width="0.254" layer="16"/>
 <wire x1="15.0364" y1="11.331" x2="15.0594" y2="11.354" width="0.254" layer="16"/>
@@ -1554,7 +1560,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="16.4608" y="5.461" extent="15-16" drill="0.1016" diameter="0.3048"/>
 <wire x1="16.4608" y1="5.461" x2="16.4156" y2="5.5062" width="0.254" layer="16"/>
 <wire x1="16.4156" y1="5.5062" x2="16.4156" y2="5.842" width="0.254" layer="16"/>
-<contactref element="U$33" pad="A2"/>
+<contactref element="LDO1" pad="A2"/>
 <contactref element="C3" pad="2"/>
 <wire x1="6.7338" y1="4.6454" x2="6.7338" y2="5.09910625" width="0.2032" layer="16"/>
 <wire x1="6.7338" y1="5.09910625" x2="7.47789375" y2="5.8432" width="0.254" layer="16"/>
@@ -1854,9 +1860,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.5018" y1="3.75110625" x2="9.54390625" y2="3.75110625" width="0.254" layer="15"/>
 <wire x1="8.5614" y1="4.1148" x2="9.13810625" y2="4.1148" width="0.254" layer="15"/>
 <wire x1="9.13810625" y1="4.1148" x2="9.5018" y2="3.75110625" width="0.254" layer="15"/>
-<contactref element="U$33" pad="A1"/>
+<contactref element="LDO1" pad="A1"/>
 <contactref element="C2" pad="2"/>
-<contactref element="U$33" pad="B1"/>
+<contactref element="LDO1" pad="B1"/>
 <wire x1="7.0838" y1="4.6454" x2="7.0838" y2="4.2954" width="0.2032" layer="16"/>
 <wire x1="7.0838" y1="4.2954" x2="7.0838" y2="3.7874" width="0.2032" layer="16"/>
 <wire x1="7.0838" y1="3.7874" x2="7.0048" y2="3.7084" width="0.254" layer="16"/>
