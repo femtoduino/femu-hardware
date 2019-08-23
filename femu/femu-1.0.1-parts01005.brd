@@ -1006,7 +1006,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="CL03A105KQ3CSNH" x="6.9088" y="4.6736" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U$6" library="femu-edge-connectors" package="FEMU-EDGE-CONNECTOR" value="FEMU-EDGE-CONNECTOR" x="17.8308" y="7.8994" smashed="yes"/>
-<element name="U$11" library="ftdi_ft231x" package="QFN-20_4X4" value="FT231XQ" x="13.5382" y="5.3086" smashed="yes" rot="MR180"/>
+<element name="U$11" library="ftdi_ft231x" package="QFN-20_4X4" value="FT231XQ" x="13.5382" y="5.3086" smashed="yes" rot="MR180">
+<attribute name="MPN" value="FT231XQ" x="13.5382" y="5.3086" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD_SDIO">

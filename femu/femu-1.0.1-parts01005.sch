@@ -2027,7 +2027,9 @@ chip</description>
 <part name="U$6" library="femu-edge-connectors" deviceset="FEMU-EDGE-CONNECTOR" device=""/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$11" library="ftdi_ft231x" deviceset="FT231XQ" device=""/>
+<part name="U$11" library="ftdi_ft231x" deviceset="FT231XQ" device="">
+<attribute name="MPN" value="FT231XQ"/>
+</part>
 <part name="U$19" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$25" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$33" library="microbuilder" deviceset="GND" device=""/>
@@ -2934,7 +2936,9 @@ chip</description>
 <instance part="U$20" gate="G$1" x="101.6" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="100.584" y="74.676" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="U$11" gate="G$1" x="142.24" y="142.24" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="142.24" y="142.24" smashed="yes">
+<attribute name="MPN" x="142.24" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$19" gate="G$1" x="109.22" y="154.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="108.204" y="153.416" size="1.27" layer="96" rot="R90"/>
 </instance>
