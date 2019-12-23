@@ -1788,16 +1788,16 @@ chip</description>
 <attribute name="MPN" value="GRM033R71C271KA01D"/>
 </part>
 <part name="C1" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
-<attribute name="MPN" value="0201ZD105MAT2A"/>
+<attribute name="MPN" value="CL03A105KQ3CSNH"/>
 </part>
 <part name="XTAL1" library="crystals" deviceset="ABM12" device="" value="40MHz">
 <attribute name="MPN" value="FA-128 40.0000MF10Z-K3"/>
 </part>
 <part name="C4" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10pF">
-<attribute name="MPN" value="CBR02C120F3GAC"/>
+<attribute name="MPN" value="CC0201JRNPO9BN100"/>
 </part>
 <part name="C5" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10pF">
-<attribute name="MPN" value="CBR02C120F3GAC"/>
+<attribute name="MPN" value="CC0201JRNPO9BN100"/>
 </part>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
@@ -1832,7 +1832,7 @@ chip</description>
 </part>
 <part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 <part name="C15" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
-<attribute name="MPN" value="0201ZD105MAT2A"/>
+<attribute name="MPN" value="CL03A105KQ3CSNH"/>
 </part>
 <part name="C16" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="100pF">
 <attribute name="MPN" value="0201YC101KAT2A"/>
@@ -1843,7 +1843,7 @@ chip</description>
 </part>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="C18" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
-<attribute name="MPN" value="0201ZD105MAT2A"/>
+<attribute name="MPN" value="CL03A105KQ3CSNH"/>
 </part>
 <part name="U$26" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$27" library="microbuilder" deviceset="3.3V" device=""/>
@@ -1897,12 +1897,10 @@ chip</description>
 <attribute name="SPICEPREFIX" value="U"/>
 </part>
 <part name="C25" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="0.1uF">
-<attribute name="MPN" value="GRM033C80J104KE84D"/>
-<attribute name="SPICEPREFIX" value="C"/>
+<attribute name="MPN" value="GRM033R61C104KE84D"/>
 </part>
 <part name="C27" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="0.1uF">
 <attribute name="MPN" value="GRM033R61C104KE84D"/>
-<attribute name="SPICEPREFIX" value="C"/>
 </part>
 <part name="U$37" library="usb-type-a-pcb-footprint-only" deviceset="USB-A-PCB" device="">
 <attribute name="SPICEPREFIX" value="U"/>
@@ -1937,13 +1935,12 @@ chip</description>
 <attribute name="MPN" value="BLM15PD121SN1D"/>
 <attribute name="SPICEPREFIX" value="F"/>
 </part>
-<part name="C23" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="4.7uF">
+<part name="C23" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="4.7uF">
 <attribute name="MPN" value="GRM035R60J475ME15D"/>
 <attribute name="SPICEPREFIX" value="C"/>
 </part>
-<part name="C24" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10nF">
-<attribute name="MPN" value="GRM033R71A103KA01D"/>
-<attribute name="SPICEPREFIX" value="C"/>
+<part name="C24" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10nF/6.3V(10%)">
+<attribute name="MPN" value="GRM033R60J103KA01D"/>
 </part>
 <part name="U$20" library="microbuilder" deviceset="VIN" device=""/>
 <part name="FID1" library="adafruit" deviceset="FIDUCIAL" device=""/>
@@ -1953,13 +1950,13 @@ chip</description>
 <part name="FID5" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="FID6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="LDO1" library="onsemi" deviceset="NCP167AFCT330T2G" device="">
-<attribute name="MPN" value="NCP167AFCT330T2G"/>
+<attribute name="MPN" value="NCP167BFCT330T2G"/>
 </part>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1uF">
-<attribute name="MPN" value="0201ZD105MAT2A"/>
+<attribute name="MPN" value="CL05A105KO5NNNC"/>
 </part>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1uF">
-<attribute name="MPN" value="0201ZD105MAT2A"/>
+<attribute name="MPN" value="CL05A105KO5NNNC"/>
 </part>
 <part name="U$34" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$35" library="microbuilder" deviceset="GND" device=""/>
