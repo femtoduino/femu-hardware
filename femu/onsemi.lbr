@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -91,6 +91,22 @@
 <wire x1="-0.45" y1="0.45" x2="-0.2" y2="0.45" width="0.1" layer="25"/>
 <wire x1="-0.45" y1="0.45" x2="-0.45" y2="0.2" width="0.1" layer="25"/>
 </package>
+<package name="WLCSP4_0.65X0.65MM">
+<wire x1="-0.325" y1="0.325" x2="-0.325" y2="-0.325" width="0.1" layer="23"/>
+<wire x1="-0.325" y1="-0.325" x2="0.325" y2="-0.325" width="0.1" layer="23"/>
+<wire x1="0.325" y1="-0.325" x2="0.325" y2="0.325" width="0.1" layer="23"/>
+<wire x1="0.325" y1="0.325" x2="-0.325" y2="0.325" width="0.1" layer="23"/>
+<wire x1="-0.6" y1="0.3" x2="-0.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0.6" x2="-0.3" y2="0.6" width="0.127" layer="21"/>
+<smd name="VIN" x="-0.175" y="0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="VOUT" x="0.175" y="0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="EN" x="-0.175" y="-0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<smd name="GND" x="0.175" y="-0.175" dx="0.2" dy="0.2" layer="1" roundness="100"/>
+<wire x1="-0.425" y1="0.325" x2="-0.425" y2="-0.325" width="0.1" layer="21"/>
+<wire x1="0.325" y1="0.425" x2="-0.325" y2="0.425" width="0.1" layer="21"/>
+<wire x1="0.425" y1="-0.325" x2="0.425" y2="0.325" width="0.1" layer="21"/>
+<wire x1="-0.325" y1="-0.425" x2="0.325" y2="-0.425" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NCP705_WDFN6">
@@ -126,6 +142,17 @@
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FAN25800">
+<description>OnSemi FAN25800 series LDO regulator</description>
+<pin name="A1" x="-15.24" y="5.08" length="middle"/>
+<pin name="B1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="B2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="A2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -189,6 +216,27 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FAN25800AUC33X">
+<description>OnSemi FAN25800AUC33X (3.3V 500mA output)</description>
+<gates>
+<gate name="G$1" symbol="FAN25800" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WLCSP4_0.65X0.65MM">
+<connects>
+<connect gate="G$1" pin="A1" pad="VIN"/>
+<connect gate="G$1" pin="A2" pad="VOUT"/>
+<connect gate="G$1" pin="B1" pad="EN"/>
+<connect gate="G$1" pin="B2" pad="GND"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="FAN25800AUC33X" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

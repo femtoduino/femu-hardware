@@ -1963,7 +1963,7 @@ chip</description>
 </part>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
 <part name="C13" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="0.1uF">
-<attribute name="MPN" value="GRM022R60G104ME15L"/>
+<attribute name="MPN" value="GRM033R61C104KE84D"/>
 </part>
 <part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 <part name="C15" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="1uF">
@@ -2053,7 +2053,7 @@ chip</description>
 <attribute name="MPN" value="BLM15PD121SN1D"/>
 </part>
 <part name="C23" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="4.7uF">
-<attribute name="MPN" value="GRM035R60G475ME15D"/>
+<attribute name="MPN" value="GRM035R60J475ME15D"/>
 </part>
 <part name="C24" library="parts_0201" deviceset="CAPACITOR_0201" device="" value="10nF">
 <attribute name="MPN" value="GRM033R71A103KA01D"/>
@@ -2081,7 +2081,7 @@ chip</description>
 <part name="U$6" library="femu-edge-connectors" deviceset="FEMU-EDGE-CONNECTOR" device=""/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$11" library="ftdi_ft231x" deviceset="FT231XQ" device="">
+<part name="IC2" library="ftdi_ft231x" deviceset="FT231XQ" device="">
 <attribute name="MPN" value="FT231XQ"/>
 </part>
 <part name="U$19" library="microbuilder" deviceset="3.3V" device=""/>
@@ -2128,7 +2128,7 @@ chip</description>
 <part name="R13" library="parts_0201" deviceset="RESISTOR_0201" device="" value="0">
 <attribute name="MPN" value="ERJ-1GN0R00C"/>
 </part>
-<part name="U$57" library="onsemi" deviceset="FAN25800AUC33X" device=""/>
+<part name="LDO2" library="onsemi" deviceset="FAN25800AUC33X" device=""/>
 <part name="R16" library="parts_0201" deviceset="RESISTOR_0201" device="" value="1K">
 <attribute name="MPN" value="RC0201FR-071KL"/>
 </part>
@@ -2264,8 +2264,8 @@ chip</description>
 <attribute name="VALUE" x="96.52" y="154.94" size="1.27" layer="96" font="vector" rot="R180"/>
 <attribute name="MPN" x="99.06" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$16" gate="G$1" x="99.06" y="149.86" smashed="yes">
-<attribute name="VALUE" x="97.536" y="147.32" size="1.27" layer="96"/>
+<instance part="U$16" gate="G$1" x="99.06" y="147.32" smashed="yes">
+<attribute name="VALUE" x="97.536" y="144.78" size="1.27" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="78.74" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="76.2" y="172.72" size="1.27" layer="95" font="vector" rot="R180"/>
@@ -2531,7 +2531,6 @@ chip</description>
 <segment>
 <pinref part="C13" gate="G$1" pin="P$1"/>
 <pinref part="U$16" gate="G$1" pin="GND"/>
-<wire x1="99.06" y1="152.4" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="P$1"/>
@@ -3073,7 +3072,7 @@ chip</description>
 <attribute name="VALUE" x="193.04" y="133.985" size="1.016" layer="96" font="vector"/>
 <attribute name="MPN" x="193.04" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$57" gate="G$1" x="160.02" y="119.38" smashed="yes"/>
+<instance part="LDO2" gate="G$1" x="160.02" y="119.38" smashed="yes"/>
 <instance part="R16" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.335" y="101.6" size="1.016" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="145.415" y="101.6" size="1.016" layer="96" font="vector" rot="R90"/>
@@ -3111,7 +3110,7 @@ chip</description>
 <wire x1="190.5" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$54" gate="G$1" pin="GND"/>
 <junction x="190.5" y="99.06"/>
-<pinref part="U$57" gate="G$1" pin="B2"/>
+<pinref part="LDO2" gate="G$1" pin="B2"/>
 <wire x1="175.26" y1="114.3" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3188,7 +3187,7 @@ chip</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <junction x="129.54" y="137.16"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="U$57" gate="G$1" pin="A1"/>
+<pinref part="LDO2" gate="G$1" pin="A1"/>
 <wire x1="144.78" y1="137.16" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3199,7 +3198,7 @@ chip</description>
 <wire x1="190.5" y1="119.38" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <junction x="190.5" y="137.16"/>
-<pinref part="U$57" gate="G$1" pin="A2"/>
+<pinref part="LDO2" gate="G$1" pin="A2"/>
 <wire x1="175.26" y1="137.16" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3208,7 +3207,7 @@ chip</description>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$57" gate="G$1" pin="B1"/>
+<pinref part="LDO2" gate="G$1" pin="B1"/>
 <wire x1="144.78" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="114.3" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
 <junction x="144.78" y="109.22"/>
@@ -3298,7 +3297,7 @@ chip</description>
 <instance part="U$20" gate="G$1" x="101.6" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="100.584" y="74.676" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="U$11" gate="G$1" x="142.24" y="142.24" smashed="yes">
+<instance part="IC2" gate="G$1" x="142.24" y="142.24" smashed="yes">
 <attribute name="MPN" x="142.24" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$19" gate="G$1" x="109.22" y="154.94" smashed="yes" rot="R90">
@@ -3326,7 +3325,7 @@ chip</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="USBDM"/>
+<pinref part="IC2" gate="G$1" pin="USBDM"/>
 <wire x1="119.38" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
 <label x="109.22" y="147.32" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -3338,7 +3337,7 @@ chip</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="USBDP"/>
+<pinref part="IC2" gate="G$1" pin="USBDP"/>
 <wire x1="119.38" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
 <label x="109.22" y="144.78" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -3383,29 +3382,29 @@ chip</description>
 <wire x1="53.34" y1="35.56" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="GND@3"/>
+<pinref part="IC2" gate="G$1" pin="GND@3"/>
 <wire x1="139.7" y1="119.38" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="116.84" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="GND@21"/>
+<pinref part="IC2" gate="G$1" pin="GND@21"/>
 <wire x1="144.78" y1="119.38" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <junction x="142.24" y="116.84"/>
-<pinref part="U$11" gate="G$1" pin="GND@13"/>
+<pinref part="IC2" gate="G$1" pin="GND@13"/>
 <wire x1="142.24" y1="116.84" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$33" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="3V3OUT"/>
+<pinref part="IC2" gate="G$1" pin="3V3OUT"/>
 <wire x1="119.38" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="RESET#"/>
+<pinref part="IC2" gate="G$1" pin="RESET#"/>
 <wire x1="116.84" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="137.16" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 <junction x="116.84" y="154.94"/>
-<pinref part="U$11" gate="G$1" pin="VCCIO"/>
+<pinref part="IC2" gate="G$1" pin="VCCIO"/>
 <wire x1="144.78" y1="165.1" x2="144.78" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="177.8" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
@@ -3417,14 +3416,14 @@ chip</description>
 </net>
 <net name="EN/RTS" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="RTS"/>
+<pinref part="IC2" gate="G$1" pin="RTS"/>
 <wire x1="165.1" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="177.8" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT/DTR" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="DTR"/>
+<pinref part="IC2" gate="G$1" pin="DTR"/>
 <wire x1="165.1" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="177.8" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -3432,7 +3431,7 @@ chip</description>
 <net name="RXD" class="0">
 <segment>
 <label x="177.8" y="157.48" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="TXD"/>
+<pinref part="IC2" gate="G$1" pin="TXD"/>
 <wire x1="165.1" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3440,7 +3439,7 @@ chip</description>
 <segment>
 <wire x1="165.1" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <label x="177.8" y="154.94" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="RXD"/>
+<pinref part="IC2" gate="G$1" pin="RXD"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3473,7 +3472,7 @@ chip</description>
 <pinref part="U$20" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="VCC"/>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
 <pinref part="U$25" gate="G$1" pin="VIN"/>
 <wire x1="139.7" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
 </segment>

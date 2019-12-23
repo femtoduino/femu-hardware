@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -151,57 +151,57 @@
 <packages>
 <package name="FEMU-EDGE-CONNECTOR">
 <polygon width="0.1524" layer="29">
-<vertex x="1.2192" y="1.9304"/>
-<vertex x="1.2192" y="0.1016"/>
-<vertex x="-1.3208" y="0.1016"/>
-<vertex x="-1.3208" y="1.9304"/>
+<vertex x="1.2192" y="1.57"/>
+<vertex x="1.2192" y="0.127"/>
+<vertex x="-1.2446" y="0.127"/>
+<vertex x="-1.2446" y="1.57"/>
 </polygon>
 <polygon width="0.1524" layer="29">
-<vertex x="-1.3208" y="-0.1016"/>
-<vertex x="1.2192" y="-0.1016"/>
-<vertex x="1.2192" y="-1.9304"/>
-<vertex x="-1.3208" y="-1.9304"/>
+<vertex x="-1.2446" y="-0.127"/>
+<vertex x="1.2192" y="-0.127"/>
+<vertex x="1.2192" y="-1.57"/>
+<vertex x="-1.2446" y="-1.57"/>
 </polygon>
 <polygon width="0.1524" layer="30">
-<vertex x="1.2192" y="1.9304"/>
-<vertex x="1.2192" y="0.1016"/>
-<vertex x="-1.3208" y="0.1016"/>
-<vertex x="-1.3208" y="1.9304"/>
+<vertex x="1.2192" y="1.57"/>
+<vertex x="1.2192" y="0.127"/>
+<vertex x="-1.2446" y="0.127"/>
+<vertex x="-1.2446" y="1.57"/>
 </polygon>
 <polygon width="0.1524" layer="30">
-<vertex x="-1.3208" y="-0.1016"/>
-<vertex x="1.2192" y="-0.1016"/>
-<vertex x="1.2192" y="-1.9304"/>
-<vertex x="-1.3208" y="-1.9304"/>
+<vertex x="-1.2446" y="-0.127"/>
+<vertex x="1.2192" y="-0.127"/>
+<vertex x="1.2192" y="-1.57"/>
+<vertex x="-1.2446" y="-1.57"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="1.143" y="1.8542"/>
-<vertex x="1.143" y="0.1524"/>
-<vertex x="-1.2192" y="0.1524"/>
-<vertex x="-1.2192" y="1.8542"/>
+<vertex x="1.143" y="1.4938"/>
+<vertex x="1.143" y="0.2032"/>
+<vertex x="-1.1684" y="0.2032"/>
+<vertex x="-1.1684" y="1.4938"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="-1.2192" y="-0.1778"/>
-<vertex x="1.143" y="-0.1778"/>
-<vertex x="1.143" y="-1.8796"/>
-<vertex x="-1.2192" y="-1.8796"/>
+<vertex x="-1.1684" y="-0.2032"/>
+<vertex x="1.1684" y="-0.2032"/>
+<vertex x="1.1684" y="-1.4938"/>
+<vertex x="-1.1684" y="-1.4938"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-1.2192" y="1.8542"/>
-<vertex x="-1.2192" y="0.1524"/>
-<vertex x="1.143" y="0.1524"/>
-<vertex x="1.143" y="1.8542"/>
+<vertex x="-1.1684" y="1.4938"/>
+<vertex x="-1.1684" y="0.2032"/>
+<vertex x="1.143" y="0.2032"/>
+<vertex x="1.143" y="1.4938"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-1.2192" y="-0.1778"/>
-<vertex x="-1.2192" y="-1.8796"/>
-<vertex x="1.143" y="-1.8796"/>
-<vertex x="1.143" y="-0.1778"/>
+<vertex x="-1.1684" y="-0.2032"/>
+<vertex x="-1.1684" y="-1.4938"/>
+<vertex x="1.1684" y="-1.4938"/>
+<vertex x="1.1684" y="-0.2032"/>
 </polygon>
-<smd name="1" x="0.3556" y="0.4826" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.381" y="-0.4318" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="0.381" y="-0.4318" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
-<smd name="4" x="0.3556" y="0.4826" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="0.831" y="1.2222" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.831" y="-1.2048" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0.831" y="-0.4318" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="0.831" y="0.4826" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
 </package>
 </packages>
 <symbols>
