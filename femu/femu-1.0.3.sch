@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1689,11 +1689,11 @@ chip</description>
 </polygon>
 <smd name="21" x="0" y="0" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.1" layer="29">
-<vertex x="-1.1" y="0.7"/>
-<vertex x="-1.1" y="-1.1"/>
-<vertex x="1.1" y="-1.1"/>
-<vertex x="1.1" y="1.1"/>
-<vertex x="-0.7" y="1.1"/>
+<vertex x="-0.9984" y="0.7"/>
+<vertex x="-0.9984" y="-0.9984"/>
+<vertex x="0.9984" y="-0.9984"/>
+<vertex x="0.9984" y="0.9984"/>
+<vertex x="-0.7" y="0.9984"/>
 </polygon>
 <rectangle x1="-0.8" y1="0.1" x2="-0.2" y2="0.7" layer="31"/>
 <rectangle x1="0.2" y1="0.1" x2="0.8" y2="0.7" layer="31"/>
@@ -1778,7 +1778,10 @@ chip</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE">
+<attribute name="DESIGNER" value="A. Albino"/>
+<attribute name="VERSION" value="v1.0.3"/>
+</part>
 <part name="IC1" library="esp32-wroom-32" deviceset="ESP32-QFN_5X5" device="">
 <attribute name="MPN" value="ESP32-D2WD"/>
 </part>
@@ -1992,6 +1995,7 @@ chip</description>
 <plain>
 <text x="55.88" y="116.84" size="1.778" layer="94" rot="R180">Matching Component
 (Optional Shunt)</text>
+<text x="238.76" y="30.48" size="2.54" layer="94" rot="R180">UNTESTED!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -2198,8 +2202,8 @@ chip</description>
 <instance part="U$23" gate="G$1" x="10.16" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="7.62" y="136.144" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$24" gate="G$1" x="43.18" y="129.54" smashed="yes">
-<attribute name="VALUE" x="41.656" y="127" size="1.27" layer="96"/>
+<instance part="U$24" gate="G$1" x="45.72" y="137.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="47.244" y="139.7" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="FID1" gate="G$1" x="93.98" y="25.4" smashed="yes"/>
 <instance part="FID2" gate="G$1" x="101.6" y="25.4" smashed="yes"/>
@@ -2342,8 +2346,9 @@ chip</description>
 <wire x1="86.36" y1="119.38" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANT1" gate="G$1" pin="1"/>
 <pinref part="U$24" gate="G$1" pin="GND"/>
+<pinref part="ANT1" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="134.62" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2387,9 +2392,9 @@ chip</description>
 <pinref part="C8" gate="G$1" pin="P$1"/>
 <wire x1="76.2" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
 <junction x="73.66" y="129.54"/>
-<pinref part="ANT1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="134.62" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="ANT1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="132.08" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
