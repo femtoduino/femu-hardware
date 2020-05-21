@@ -1,0 +1,3 @@
+# See https://pypi.org/project/adafruit-ampy/
+# Fix for macOS users' "Could not enter raw repl"; try 2.0 and lower from there:
+AMPY_DELAY=2.0
