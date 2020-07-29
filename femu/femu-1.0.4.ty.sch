@@ -1721,10 +1721,10 @@ chip</description>
 <library name="taydo-yuden-rf-antenna">
 <packages>
 <package name="AF216M245001-T">
-<wire x1="-0.625" y1="1" x2="-0.625" y2="-1" width="0" layer="23"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0" layer="23"/>
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0" layer="23"/>
-<wire x1="-0.625" y1="-1" x2="0.625" y2="-1" width="0" layer="23"/>
+<wire x1="-0.625" y1="1" x2="-0.625" y2="-1" width="0.0254" layer="23"/>
+<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.0254" layer="23"/>
+<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.0254" layer="23"/>
+<wire x1="-0.625" y1="-1" x2="0.625" y2="-1" width="0.0254" layer="23"/>
 <smd name="1" x="0" y="1" dx="1.58" dy="1" layer="1"/>
 <smd name="2" x="0" y="-1" dx="1.58" dy="1" layer="1"/>
 </package>
