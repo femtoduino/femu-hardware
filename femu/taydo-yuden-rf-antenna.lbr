@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -69,6 +69,14 @@
 <smd name="1" x="0" y="1" dx="1.58" dy="1" layer="1"/>
 <smd name="2" x="0" y="-1" dx="1.58" dy="1" layer="1"/>
 </package>
+<package name="AF216M245001-T_REDUCED">
+<wire x1="-0.625" y1="1" x2="-0.625" y2="-1" width="0.0254" layer="23"/>
+<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.0254" layer="23"/>
+<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.0254" layer="23"/>
+<wire x1="-0.625" y1="-1" x2="0.625" y2="-1" width="0.0254" layer="23"/>
+<smd name="1" x="0" y="0.875" dx="1.58" dy="0.75" layer="1"/>
+<smd name="2" x="0" y="-0.875" dx="1.58" dy="0.75" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RF_ANT_2PIN">
@@ -95,6 +103,15 @@
 <technology name="">
 <attribute name="MPN" value="AF216M245001-T" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="AF216M245001-T_REDUCED" package="AF216M245001-T_REDUCED">
+<connects>
+<connect gate="G$1" pin="ANT" pad="1"/>
+<connect gate="G$1" pin="END" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
