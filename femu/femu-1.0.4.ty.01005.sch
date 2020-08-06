@@ -1529,6 +1529,60 @@ chip</description>
 <smd name="3" x="0.381" y="-0.4318" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
 <smd name="4" x="0.3556" y="0.4826" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
 </package>
+<package name="FEMU-EDGE-CONN-SLIM">
+<polygon width="0.1524" layer="29">
+<vertex x="1.2192" y="1.4224"/>
+<vertex x="1.2192" y="0.1016"/>
+<vertex x="-1.3208" y="0.1016"/>
+<vertex x="-1.3208" y="1.4224"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="-1.3208" y="-0.1016"/>
+<vertex x="1.2192" y="-0.1016"/>
+<vertex x="1.2192" y="-1.4224"/>
+<vertex x="-1.3208" y="-1.4224"/>
+</polygon>
+<polygon width="0.1524" layer="30">
+<vertex x="1.2192" y="1.4224"/>
+<vertex x="1.2192" y="0.1016"/>
+<vertex x="-1.3208" y="0.1016"/>
+<vertex x="-1.3208" y="1.4224"/>
+</polygon>
+<polygon width="0.1524" layer="30">
+<vertex x="-1.3208" y="-0.1016"/>
+<vertex x="1.2192" y="-0.1016"/>
+<vertex x="1.2192" y="-1.4224"/>
+<vertex x="-1.3208" y="-1.4224"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="1.143" y="1.3462"/>
+<vertex x="1.143" y="0.1524"/>
+<vertex x="-1.2192" y="0.1524"/>
+<vertex x="-1.2192" y="1.3462"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-1.2192" y="-0.1778"/>
+<vertex x="1.143" y="-0.1778"/>
+<vertex x="1.143" y="-1.3716"/>
+<vertex x="-1.2192" y="-1.3716"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="-1.2192" y="1.3462"/>
+<vertex x="-1.2192" y="0.1524"/>
+<vertex x="1.143" y="0.1524"/>
+<vertex x="1.143" y="1.3462"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="-1.2192" y="-0.1778"/>
+<vertex x="-1.2192" y="-1.3716"/>
+<vertex x="1.143" y="-1.3716"/>
+<vertex x="1.143" y="-0.1778"/>
+</polygon>
+<smd name="1" x="0.3556" y="0.4826" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.381" y="-0.4318" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0.381" y="-0.4318" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="0.3556" y="0.4826" dx="0.508" dy="0.508" layer="16" stop="no" thermals="no" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FEMU-EDGE-CONNECTORS">
@@ -1575,6 +1629,17 @@ chip</description>
 </gates>
 <devices>
 <device name="" package="FEMU-EDGE-CONNECTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FEMU-EDGE-CONN-SLIM" package="FEMU-EDGE-CONN-SLIM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2028,7 +2093,7 @@ chip</description>
 <part name="U$35" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$36" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$46" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$6" library="femu-edge-connectors" deviceset="FEMU-EDGE-CONNECTOR" device=""/>
+<part name="U$6" library="femu-edge-connectors" deviceset="FEMU-EDGE-CONNECTOR" device="FEMU-EDGE-CONN-SLIM" value="FEMU-EDGE-CONNECTORFEMU-EDGE-CONN-SLIM"/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$11" library="ftdi_ft231x" deviceset="FT231XQ" device="">
