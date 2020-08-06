@@ -2040,10 +2040,6 @@ chip</description>
 <part name="U$33" library="microbuilder" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="U"/>
 </part>
-<part name="FB2" library="microbuilder" deviceset="FERRITE" device="_0402MP">
-<attribute name="MPN" value="BLM15PD121SN1D"/>
-<attribute name="SPICEPREFIX" value="F"/>
-</part>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="R16" library="parts_0201" deviceset="RESISTOR_0201" device="" value="1K">
 <attribute name="MPN" value="RC0201FR-071KL"/>
@@ -2909,11 +2905,6 @@ chip</description>
 <instance part="U$33" gate="G$1" x="142.24" y="109.22" smashed="yes">
 <attribute name="VALUE" x="140.716" y="106.68" size="1.27" layer="96"/>
 </instance>
-<instance part="FB2" gate="G$1" x="38.1" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="40.005" y="57.15" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="34.925" y="57.15" size="1.27" layer="95" rot="R270"/>
-<attribute name="MPN" x="38.1" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -2968,8 +2959,9 @@ chip</description>
 </segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="GND"/>
-<pinref part="FB2" gate="G$1" pin="P$2"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$37" gate="A" pin="GND"/>
+<wire x1="38.1" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="50.8" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="P$1"/>
@@ -3097,13 +3089,6 @@ chip</description>
 <wire x1="53.34" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="60.96" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="53.34" y="60.96"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$37" gate="A" pin="GND"/>
-<pinref part="FB2" gate="G$1" pin="P$1"/>
-<wire x1="38.1" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
