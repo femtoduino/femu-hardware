@@ -1145,18 +1145,41 @@ chip</description>
 <text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="PART_11.3MIL_PIN1">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.288290625" dy="0.5" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PART_11.3MIL_PIN2">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.288290625" dy="0.5" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PART_11.3MIL">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.4" dy="0.288290625" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.4" dy="0.288290625" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="CAP_0201">
-<pin name="P$1" x="0" y="5.08" visible="off" length="point" rot="R270"/>
-<pin name="P$2" x="0" y="-2.54" visible="off" length="point" rot="R90"/>
-<rectangle x1="-0.22225" y1="0.53975" x2="0.22225" y2="3.07975" layer="94" rot="R270"/>
-<rectangle x1="-0.22225" y1="-0.53975" x2="0.22225" y2="2.00025" layer="94" rot="R270"/>
-<text x="3.175" y="3.81" size="1.016" layer="95">&gt;NAME</text>
-<text x="3.175" y="1.905" size="1.016" layer="96">&gt;VALUE</text>
-<wire x1="0" y1="5.08" x2="0" y2="1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="0.762" width="0.254" layer="94"/>
-</symbol>
 <symbol name="INDUCTOR_FIXED_0201">
 <pin name="P$1" x="-5.08" y="0" visible="off" length="point"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="point"/>
@@ -1168,6 +1191,16 @@ chip</description>
 <wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <text x="-3.175" y="2.54" size="1.016" layer="95" font="vector">&gt;Name</text>
 <text x="-3.175" y="-1.905" size="1.016" layer="96" font="vector">&gt;Value</text>
+</symbol>
+<symbol name="CAP_0201">
+<pin name="P$1" x="0" y="5.08" visible="off" length="point" rot="R270"/>
+<pin name="P$2" x="0" y="-2.54" visible="off" length="point" rot="R90"/>
+<rectangle x1="-0.22225" y1="0.53975" x2="0.22225" y2="3.07975" layer="94" rot="R270"/>
+<rectangle x1="-0.22225" y1="-0.53975" x2="0.22225" y2="2.00025" layer="94" rot="R270"/>
+<text x="3.175" y="3.81" size="1.016" layer="95">&gt;NAME</text>
+<text x="3.175" y="1.905" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="5.08" x2="0" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="0.762" width="0.254" layer="94"/>
 </symbol>
 <symbol name="RESISTOR_0201">
 <pin name="1" x="-2.54" y="0" visible="off" length="point"/>
@@ -1185,6 +1218,40 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="INDUCTOR_FIXED_0201" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="INDUCTOR_FIXED_0201" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PART">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN1" package="PART_11.3MIL_PIN1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN2" package="PART_11.3MIL_PIN2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CAPACITOR_0201" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CAP_0201" x="0" y="0"/>
@@ -1199,14 +1266,25 @@ chip</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="INDUCTOR_FIXED_0201" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="INDUCTOR_FIXED_0201" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PART">
+<device name="RF_PIN1" package="PART_11.3MIL_PIN1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN2" package="PART_11.3MIL_PIN2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PIN1_PIN2" package="PART_11.3MIL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -2113,7 +2191,9 @@ chip</description>
 <attribute name="MPN" value="RC0201FR-07560RL"/>
 </part>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$38" library="taydo-yuden-rf-antenna" deviceset="AF216M245001-T" device=""/>
+<part name="U$38" library="taydo-yuden-rf-antenna" deviceset="AF216M245001-T" device="">
+<attribute name="MPN" value="AH212M245001-T"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2180,10 +2260,10 @@ chip</description>
 <attribute name="VALUE" x="79.375" y="132.715" size="1.016" layer="96" rot="R90"/>
 <attribute name="MPN" x="81.28" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L2" gate="G$1" x="86.36" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.82" y="121.285" size="1.016" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="88.265" y="121.285" size="1.016" layer="96" font="vector" rot="R90"/>
-<attribute name="MPN" x="86.36" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L2" gate="G$1" x="86.36" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.535" y="124.46" size="1.016" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="89.535" y="128.905" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="86.36" y="127" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="73.66" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.485" y="120.65" size="1.016" layer="95" rot="R180"/>
@@ -2455,7 +2535,7 @@ chip</description>
 <segment>
 <pinref part="L2" gate="G$1" pin="P$1"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="86.36" y1="119.38" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="127" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2484,11 +2564,11 @@ chip</description>
 <net name="ANT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="LNA_IN"/>
-<wire x1="114.3" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="129.54" x2="81.28" y2="127" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="P$2"/>
 <pinref part="C8" gate="G$1" pin="P$2"/>
-<wire x1="83.82" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
-<junction x="86.36" y="129.54"/>
+<wire x1="83.82" y1="129.54" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<junction x="81.28" y="127"/>
 </segment>
 </net>
 <net name="N$6" class="0">
