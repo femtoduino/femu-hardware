@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -68,6 +68,39 @@
 <wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
 <smd name="1" x="-0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
 <smd name="2" x="0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PART_11.3MIL_PIN1">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.288290625" dy="0.5" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PART_11.3MIL_PIN2">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.288290625" dy="0.5" layer="1"/>
+<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
+<text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PART_11.3MIL">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="23"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="23"/>
+<smd name="1" x="-0.35" y="0" dx="0.4" dy="0.288290625" layer="1"/>
+<smd name="2" x="0.35" y="0" dx="0.4" dy="0.288290625" layer="1"/>
 <wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.127" layer="21"/>
 <text x="-1.738" y="-1.178" size="0.7112" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.738" y="-1.94" size="0.508" layer="27" font="vector" ratio="20">&gt;VALUE</text>
@@ -142,6 +175,33 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="RF_PIN1" package="PART_11.3MIL_PIN1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN2" package="PART_11.3MIL_PIN2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PIN1_PIN2" package="PART_11.3MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR_FIXED_0201" uservalue="yes">
@@ -150,6 +210,24 @@
 </gates>
 <devices>
 <device name="" package="PART">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN1" package="PART_11.3MIL_PIN1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RF_PIN2" package="PART_11.3MIL_PIN2">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
