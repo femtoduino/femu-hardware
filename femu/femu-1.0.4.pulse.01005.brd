@@ -230,11 +230,13 @@
 </polygon>
 <text x="23.114" y="4.318" size="0.6604" layer="25" font="vector" ratio="20" rot="R90" align="center">FEMTO.IO</text>
 <text x="21.971" y="2.794" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center">FEMU</text>
-<text x="21.971" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center">1.0.4ty</text>
+<text x="21.971" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center">1.0.4</text>
 <text x="16.383" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="center">FEMU</text>
 <text x="16.383" y="11.049" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center">1.0.4</text>
 <dimension x1="0" y1="0" x2="24.064" y2="0" x3="12.032" y3="-6.7056" textsize="1.778" layer="47" dtype="horizontal" visible="yes"/>
 <dimension x1="24.064" y1="15.754" x2="24.064" y2="0" x3="28.1686" y3="7.877" textsize="1.778" layer="47" dtype="horizontal" visible="yes"/>
+<dimension x1="14.986" y1="12.7" x2="18.0086" y2="12.7" x3="16.4973" y3="16.8148" textsize="0.508" textratio="1" layer="47" width="0.0254" visible="yes"/>
+<dimension x1="18.0086" y1="12.7" x2="18.0086" y2="10.0584" x3="25.2984" y3="11.3792" textsize="0.508" textratio="1" layer="47" width="0.0254" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
