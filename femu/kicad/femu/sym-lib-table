@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name ESP32-D2WD)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ESP32-D2WD/ESP32-D2WD.lib)(options "")(descr ""))
+  (lib (name 2020-12-25_05-18-44)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ul_LRTBR48G/KiCAD/2020-12-25_05-18-44/2020-12-25_05-18-44.lib)(options "")(descr ""))
+  (lib (name W3008)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/W3008/W3008.lib)(options "")(descr ""))
+  (lib (name FT231XQ-R)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/FT231XQ-R/FT231XQ-R.lib)(options "")(descr ""))
+  (lib (name ECS-TXO-2016-33-400-TR)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ECS-TXO-2016-33-400-TR/ECS-TXO-2016-33-400-TR.lib)(options "")(descr ""))
+  (lib (name BGA4C40P2X2_84X84X60N)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/BGA4C40P2X2_84X84X60N.lib)(options "")(descr ""))
+  (lib (name bomu-usb-a-insert)(type Legacy)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/bomu-usb-a-insert.lib)(options "")(descr ""))
+)

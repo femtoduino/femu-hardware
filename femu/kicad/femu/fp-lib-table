@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name ESP32-D2WD)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ESP32-D2WD)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ul_LRTBR48G/KiCAD/2020-12-25_05-18-44/footprints.pretty)(options "")(descr ""))
+  (lib (name W3008)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/W3008)(options "")(descr ""))
+  (lib (name FT231XQ-R)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/FT231XQ-R)(options "")(descr ""))
+  (lib (name ECS-TXO-2016-33-400-TR)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/ECS-TXO-2016-33-400-TR)(options "")(descr ""))
+  (lib (name 3rd-party)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party)(options "")(descr ""))
+  (lib (name bomu-usb-a-insert)(type KiCad)(uri /Users/aalbino/Projects/femu-hardware/femu/kicad/3rd-party/bomu-usb-a-insert.pretty)(options "")(descr ""))
+)
