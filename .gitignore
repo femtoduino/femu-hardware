@@ -1,57 +1,57 @@
 .DS_Store
-*.zip
+femu/*.zip
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
+femu/*.s#?
+femu/*.b#?
+femu/*.l#?
+femu/*.b$?
+femu/*.s$?
+femu/*.l$?
 
 # Eagle project file
 # It contains a serial number and references to the file structure
 # on your computer.
 # comment the following line if you want to have your project file included.
-eagle.epf
+femu/eagle.epf
 
 # Autorouter files
-*.pro
-*.job
+femu/*.pro
+femu/*.job
 
 # CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+femu/*.$$$
+femu/*.cmp
+femu/*.ly2
+femu/*.l15
+femu/*.sol
+femu/*.plc
+femu/*.stc
+femu/*.sts
+femu/*.crc
+femu/*.crs
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
+femu/*.dri
+femu/*.drl
+femu/*.gpi
+femu/*.pls
+femu/*.ger
+femu/*.gpi
+femu/*.xln
 
-*.drd
-*.drd.*
+femu/*.drd
+femu/*.drd.*
 
-*.s#*
-*.b#*
+femu/*.s#*
+femu/*.b#*
 
-*.info
+femu/*.info
 
-*.eps
+femu/*.eps
 
 # file locks introduced since 7.x
-*.lck
+femu/*.lck
 
 # Blender 3d
 *.blend1
